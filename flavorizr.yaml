@@ -1,0 +1,20 @@
+flavors:
+  development:
+    app:
+      name: "mdbee dev"
+    android:
+      applicationId: "ai.mdbee.dev"  
+    ios:
+      bundleId: "ai.mdbee.dev"
+    macos:
+      bundleId: "ai.mdbee.dev"  
+  production:
+    app:
+      name: "mdbee"
+  
+    android:
+      applicationId: "ai.mdbee"
+    ios:
+      bundleId: "ai.mdbee"
+    macos:
+      bundleId: "ai.mdbee"

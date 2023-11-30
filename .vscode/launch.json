@@ -1,0 +1,40 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "mdbee_dev",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main_development.dart",
+			"args": ["--flavor","development","--target","lib/main_development.dart"],
+		},
+
+		{
+			"name": "mdbee_pro",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main_production.dart",
+			"args": ["--flavor","production","--target","lib/main_production.dart"]
+		},		
+		{
+			"name": "mdbee_dev (profile mode)",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main_development.dart",
+			"args": ["--flavor","development","--target","lib/main_development.dart"],
+			"flutterMode": "profile"
+		},
+
+		{
+			"name": "mdbee_pro (profile mode)",
+			"request": "launch",
+			"type": "dart",
+			"program": "lib/main_production.dart",
+			"args": ["--flavor","production","--target","lib/main_production.dart"],
+			"flutterMode": "profile"
+		},
+	]
+}
